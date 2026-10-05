@@ -1,0 +1,19 @@
+# Core versions are pinned to the Airflow 2.10.5 / Python 3.11 constraints file
+# so the pipeline behaves identically locally and inside the Airflow container.
+pandas==2.1.4
+numpy==1.26.4
+SQLAlchemy==1.4.54
+psycopg2-binary==2.9.10
+python-dotenv==1.0.1
+
+# Testing
+pytest==8.3.4
+
+# Exploratory notebook
+ipykernel
+matplotlib==3.11.2
+nbclient==0.10.2
+nbformat==5.11.1
+
+# Dataset download (scripts/download_data.sh)
+kaggle
